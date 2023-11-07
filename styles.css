@@ -15,6 +15,17 @@ header {
     text-align: center;
 }
 
+button {
+    background-color: #FFFFFF;;
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px; 
+}
+
 .team-members {
 	display: flex;
 	flex-wrap: wrap;
