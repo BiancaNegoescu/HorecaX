@@ -8,13 +8,6 @@ body {
     line-height: 1.6;
 }
 
-header {
-    background-color: #333333; /* Dark gray header background */
-    color: #F4F4F4; /* Light gray text color */
-    padding: 20px 0;
-    text-align: center;
-}
-
 button {
     background-color: #FFFFFF;;
     color: #000000;
