@@ -72,7 +72,7 @@ p {
 /* Add styles for the navigation menu */
 .nav-menu {
 	position: fixed;
-	top: 50%; /* Adjust this value to vertically center the menu */
+	top: 430px;
 	right: 0px;
 	transform: translateY(-50%);
 	background-color: #222;
