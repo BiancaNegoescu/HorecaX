@@ -1,0 +1,104 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #F4F4F4; /* Light gray background color */
+    color: #333333; /* Dark gray text color */
+    text-align: left; /* Left-align all text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #FFFFFF;;
+    color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px; 
+}
+
+.team-members {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+    }
+    
+.member {
+    text-align: center;
+    width: 30%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.role {
+    font-style: italic;
+}
+    
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1000px; /* Increased width of the white container */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFFFFF; /* White container background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-top: -40px;
+}
+
+h2 {
+    color: #333333; /* Dark gray h2 text color */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left; /* Left-align h2 elements */
+    border-bottom: 2px solid #333333; /* Add horizontal line under h2 elements */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* Add styles for the navigation menu */
+.nav-menu {
+	position: fixed;
+	top: 430px;
+	right: 0px;
+	transform: translateY(-50%);
+	background-color: #222;
+	padding: 8px;
+	border-radius: 4px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 10px 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #f2f2f2; /* Gold text color */
+    font-weight: bold;
+    font-size: 14px;
+    font-style: italic;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #f7e8c2; /* Light text color on hover */
+}
